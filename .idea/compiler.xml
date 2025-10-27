@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TemaBook" />
+        <module name="org" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TemaBook" target="25" />
+    </bytecodeTargetLevel>
   </component>
 </project>
