@@ -3,7 +3,7 @@ package org.example.TemaDin18Octombrie;
 
 public class Light {
     private boolean isOn;
-    private int brightness; // nivel de luminozitate: 0 - 100
+    private int brightness;
 
 
     public Light() {
@@ -72,7 +72,7 @@ public class Light {
     }
 }
 
-class Main {
+class LightFunctions {
     public static void main(String[] args) {
         Light light = new Light();
 
@@ -83,5 +83,6 @@ class Main {
         light.turnOff();
     }
 }
+
 
 
